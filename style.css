@@ -1,0 +1,280 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poetsen+One&family=Rubik+Doodle+Shadow&family=Sofia&family=Solway:wght@300;400;500;700;800&family=Square+Peg&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair", serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navbar starts */
+nav{
+    box-shadow: rgba(0,0, 0, 0.1)0px 4px 12px;
+}
+.navbar-brand{
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-weight: bold;
+}
+.navbar-brand span{
+    font-family: "Combo", system-ui;
+}
+
+#carouselExampleCaptions{
+    border: 1px;
+    border-radius: 10px;
+    margin: 30px 40px;
+    box-shadow: rgba(0,0, 0, 0.1)0px 4px 12px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px;
+    box-shadow: rgba(0,0, 0, 0.1)0px 4px 12px;
+}
+.carousel-item h5{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 50px;
+}
+
+.main{
+    margin: 30px 40px;
+}
+.main img{
+    width: 150px;
+    height: 150px;
+}
+
+.aboutsection{
+    padding-top: 50px;
+}
+
+.aboutsection p{
+    margin: 10px 70px;
+    font-size: 17px;
+}
+
+
+/* contactus */
+#contactus h3,button{
+    text-shadow: 0px 1px 1px black;
+}
+#contactus button{
+    transition: 0.5s;
+    width: 160px;
+}
+#contactus button:hover{
+    width: 170px;
+}
+/* col-1 */
+#contact_col_one h5{
+    font-weight: bold;
+    color: #5a5a5a;
+    text-shadow: 0px 1px 1px black;
+}
+#contact_col_one p a{
+    text-decoration: none;
+    color: black;
+}
+#contact_col_one p a i{
+    color: #d80505;
+}
+
+/* col-2 */
+#contact_col_two h5{
+    font-weight: bold;
+    color: #5a5a5a;
+    text-shadow: 0px 1px 1px black;
+}
+
+/* col-3 */
+#contact_col_three h5{
+    font-weight: bold;
+    color: #5a5a5a;
+    text-shadow: 0px 1px 1px black;
+}
+#contact_col_three button{
+    width: 160px;
+    font-size: 16px;
+    font-weight: 550;
+    background: #ffa500;
+    color: white;
+    margin-top: 1px;
+    transition: 0.5s;
+}
+#contact_col_three button:hover{
+    width: 170px;
+}
+
+#conactseccol{
+    border: 1px solid rgb(230, 230, 230);
+    margin: 20px 30px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+
+#conactseccol h5{
+    color: red;
+}
+
+/* ------- modal ------- */
+.modal h1{
+    font-weight: bold;
+    color: #51d415;
+    text-shadow: 0px 1px 1px black;
+} 
+
+.modal form input{
+    padding: 10px;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+
+.modal form select{
+    width: 100%;
+    padding: 10px;
+    color: rgb(100, 100, 100);
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+} 
+
+.modal .modal-footer button{
+    width: 160px;
+    font-size: 16px;
+    font-weight: 550;
+    background: #ffa500;
+    color: white;
+    margin-top: 1px;
+    transition: 0.5s;
+    border: none;
+}
+
+.modal .modal-footer button:hover{
+    width: 170px;
+}
+
+/* footer */
+footer{
+    padding-bottom: 1px;
+    margin-top:20px;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 0;
+   
+}
+
+/* products */
+.products{
+    padding-bottom: 30px;
+}
+.products .products-img{
+    width: 600px;
+    height: 500px;
+    transition: 0.5s;
+}
+.products .products-img:hover{
+    transform: scale(0.9);
+}
+.products h3{
+    color: #7bbbe0;
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+}
+.products p{
+    font-size: 18px;
+}
+.products button{
+    width: 150px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    background: #82da6c;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 550;
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.products button:hover{
+    width: 170px;
+    background: #40c924;
+    color: white;
+}
+.flavers{
+    margin-bottom: 30px;
+}
+.flavers h2{
+    color: #7bbbe0;
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+.flavers .row{
+    padding: 0px 20px;
+}
+.flavers .card{
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0,0, 0, 0.1)0px 4px 12px;
+    height: 360px;
+}
+
+.flavers .card img{
+    border-radius: 5px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.flavers .card img:hover{
+    transform: scale(0.9);
+}
+
+.flavers .card .card-body h5{
+    color: rgb(127, 139, 139);
+    font-family: 'Arima Madurai', cursive;
+}
+
+/* up arrow */
+.up-arrow{
+    float: right;
+    margin: 1rem 1rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(221, 11, 11) , rgb(177, 99, 80)); 
+}
+.up-arrow a i{
+    color: white;
+    font-size: 24px;
+}
+::-webkit-scrollbar{
+    width: 7px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgb(248, 248, 248);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(102, 102, 102);
+    border-radius: 10px;
+}

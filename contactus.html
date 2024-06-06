@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAVA Icecream About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navbar starts -->
+    <nav class="navbar navbar-expand-lg bg-body-light">
+        <div class="container mt-0">
+            <a class="navbar-brand text-danger fs-1" href="#">LAVA <span class="fs-6 text-dark">ICECREAMS</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">
+                            <i class="fa-solid fa-house fa-fade"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="shakes.html">Shakes</a></li>
+                            <li><a class="dropdown-item" href="bar.html">Bar</a></li>
+                            <li><a class="dropdown-item" href="cups.html">Cups</a></li>
+                            <li><a class="dropdown-item" href="icones.html">Icones</a></li>
+                            <li><a class="dropdown-item" href="specialities.html">Specialities</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-brands fa-youtube" style="color: #d51038;"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-brands fa-instagram" style="color: #3140af;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar ends -->
+
+    <!-- Content start -->
+    <div class="main mt-5">
+        <div id="contactus" class="contactsection text-center mt-5 pb-2">
+            <h3 class="fw-bold fst-italic mb-5" style="color: rgb(236, 21, 32);">Contact Us</h3>
+            
+            <div class="row">
+                <div id="contact_col_one" class="col-md-4">
+                    <h5>Need Help?</h5>
+                    <p>
+                        <a href=""><i class="fa-solid fa-phone-volume"></i></i>&nbsp; +91-9728471940</a> <br>
+                        <a href=""><i class="fa-solid fa-envelope"></i>&nbsp;  info@lavaicecreams.com</a> <br>
+                        <a href=""><i class="fa-solid fa-envelope"></i>&nbsp;  lavaicecreams@gmail.com</a> <br>
+                    </p>
+                </div>
+                
+                <div id="contact_col_two" class="col-md-4">
+                    <h5>LAVA Icecreams</h5>
+                    <p>
+                        Address :- Satsang 2, Navgrah  <br>
+                        Complex, Poonam Sagar <br>
+                        Complex, Mira Road, Mumbai, <br>
+                        Maharashtra 401107
+                    </p>
+                </div>
+
+                <div id="contact_col_three"  class="col-md-4">
+                    <!-- Button trigger modal -->
+                    <h5>Reach Out To Us</h5>
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Feedack
+                    </button>  
+                </div>
+            </div>
+
+            <img class="img-fluid mt-5" src="https://img.freepik.com/premium-vector/cute-ice-cream-mascot-pick-up-phone-answering-phone-calls_700108-989.jpg" alt="contact-img"><br>
+            
+            <!-- offcanvas start -->
+            <button class="btn" style="background-color: #837c81; color: white;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                Thank You!
+            </button>
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header text-center">
+                    <h5 class="offcanvas-title text-danger" id="offcanvasWithBothOptionsLabel">
+                        Thank you!
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <img style="height: 340px; width: 350px;" src="https://www.icegif.com/wp-content/uploads/thank-you-icegif-7.gif" alt="Thank you">
+                </div>
+            </div>
+            <!-- offcanvas end -->
+            
+        </div>
+    </div>
+    <!-- Content end -->
+
+    <!-- Modal start -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Let’s connect Drop your queries below</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- - -->
+                    <form id="conactseccol" action="#">
+                        <div>
+                            <input type="text" class="form-control" placeholder="Name" required><br>
+                            <input type="tel" class="form-control" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required> <br>
+                            <input type="email" class="form-control" placeholder="Email" required><br>
+                            <select class="dropdown mb-3" name="Select the Service Needed">
+                                <option value="australia">Select the Service Needed</option>
+                                <option value="australia">Party Order</option>
+                                <option value="canada">Catering</option>
+                            </select>
+                            <select class="dropdown mb-3" name="State">
+                                <option value="australia">State</option>
+                                <option value="australia">Kerala</option>
+                                <option value="canada">Tamilnadu</option>
+                            </select>
+                            <input type="text" class="form-control" placeholder="City" required><br>
+                            <input type="number" class="form-control" placeholder="Expected Number of Guests" required><br>
+                            <input type="date" class="form-control" placeholder="Date" required><br>
+                        </div>
+                    </form>
+                    <!-- - -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal end -->
+    
+    <!-- Footer -->
+    <footer>   
+        <p> &copy; LAVA Icecreams 2024. | &reg; Developed by Rohini P R</p>
+    </footer>
+    
+</body>
+<!-- Script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
