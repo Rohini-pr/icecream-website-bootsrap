@@ -24,8 +24,9 @@ Products
 ![image](https://github.com/Rohini-pr/icecream-website-bootsrap/assets/125246758/a2b39f19-2fe7-437d-b012-6b37ff5b186f)
 ![image](https://github.com/Rohini-pr/icecream-website-bootsrap/assets/125246758/d6899ba0-a8bc-4082-8662-b5fe78cbaadd)
 
-<img href="https://i.postimg.cc/Y04Xw9L8/Products.png">
+<a><img href="https://i.postimg.cc/Y04Xw9L8/Products.png"></a>
 https://i.postimg.cc/Y04Xw9L8/Products.png
+https://postimg.cc/MfS07zDj
 
 
 
