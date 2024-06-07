@@ -24,10 +24,10 @@ Products
 ![image](https://github.com/Rohini-pr/icecream-website-bootsrap/assets/125246758/a2b39f19-2fe7-437d-b012-6b37ff5b186f)
 ![image](https://github.com/Rohini-pr/icecream-website-bootsrap/assets/125246758/d6899ba0-a8bc-4082-8662-b5fe78cbaadd)
 
-<img src="https://i.postimg.cc/Y04Xw9L8/Products.png">
-https://i.postimg.cc/Y04Xw9L8/Products.png
-https://postimg.cc/MfS07zDj
-<img width="1408" alt="Screenshot 2022-11-10 at 10 35 40 PM" src="https://user-images.githubusercontent.com/99420269/201160353-7547ab8b-d435-4b20-b447-f666759f184e.png">
+
+                                                                    Thank You!
+
+
 
 
 
