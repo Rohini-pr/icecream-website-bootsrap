@@ -4,7 +4,7 @@ About the Project :
 
 This is a responsive Ice Cream Website developed using HTML5, CSS3, Bootstrap 5, and Font Awesome. The website is designed with a modern and user-friendly interface to showcase ice cream products and provide an engaging browsing experience.
 
-The project demonstrates the use of various Bootstrap components, including a responsive Navigation Bar, Carousel, Cards, Grid System, and Modal. Custom CSS has been used to enhance the overall appearance, while Font Awesome icons improve the visual appeal and usability.
+The project demonstrates the use of various Bootstrap components, including a responsive Navigation Bar, Carousel, Cards, Grid System, Offcanvas and Modal. Custom CSS has been used to enhance the overall appearance, while Font Awesome icons improve the visual appeal and usability.
 
 This project was created to practice responsive web design and gain hands-on experience with Bootstrap components and front-end web development.
 
