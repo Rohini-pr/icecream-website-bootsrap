@@ -1,8 +1,6 @@
 # 🍦 Icecream bootstrap website
 
-🍦 Ice Cream Website
-
-About the Project
+About the Project :
 
 This is a responsive Ice Cream Website developed using HTML5, CSS3, Bootstrap 5, and Font Awesome. The website is designed with a modern and user-friendly interface to showcase ice cream products and provide an engaging browsing experience.
 
